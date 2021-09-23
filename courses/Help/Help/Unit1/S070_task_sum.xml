@@ -19,7 +19,7 @@
     <userCodeFile>sum.js</userCodeFile>
     <includePathForChecker>../TestsRunner</includePathForChecker>
     <dockerImageName>js-sandbox</dockerImageName>
-    <run>node docker-test-runner.js</run>
+    <run>node docker-test-runner.mjs</run>
     <region>Task</region>
   </exercise.universal>
 </slide.exercise>

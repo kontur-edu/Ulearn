@@ -1,1 +1,6 @@
+# using docker-desktop
 docker run -it -v $(pwd)/src:/tmp/src js-sandbox sh -c 'cp -r /tmp/src/* .; sh'
+
+# using minikube
+minikube mount $(pwd):/host
+docker run -it -v /host/src:/tmp/src js-sandbox sh -c 'cp -r /tmp/src/* .; sh'
